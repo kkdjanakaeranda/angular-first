@@ -29,5 +29,11 @@ export class AppComponent {
   //     this.number = "odd"
   //   }
   // }
+  public result='';
+  public h=0;
+  public w=0;
 
+  public calculateBMI() {
+
+  }
 }
