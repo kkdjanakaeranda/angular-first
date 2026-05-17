@@ -7,4 +7,27 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-project';
+  count = 0;
+  number="even";
+
+
+  public increment() {
+    this.count += 1;
+    if (this.count % 2 == 0){
+      this.number = "even"
+    }
+    else {
+      this.number = "odd"
+    }
+  }
+
+  // public check_odd_even(){
+  //   if (this.count % 2 == 0){
+  //     this.number = "even"
+  //   }
+  //   else {
+  //     this.number = "odd"
+  //   }
+  // }
+
 }
